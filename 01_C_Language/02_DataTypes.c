@@ -40,24 +40,48 @@ int main() {
     printf("%d\n", b);
     printf("%d\n", c);
     printf("%d\n", d);
+    /* Output: 
+    1
+    12
+    123
+    1234
+    */
 
     // Exercise 2: Print the values of a, b, c, and d using format specifiers with width
     printf("\n%4d\n", a);
     printf("%4d\n", b);
     printf("%4d\n", c);
     printf("%4d\n", d);
+    /* Output: 
+       1
+      12
+     123
+    1234
+    */
 
     // Exercise 3: Print the values of a, b, c, and d using format specifiers with width and leading zeros
     printf("\n%04d\n", a);
     printf("%04d\n", b);
     printf("%04d\n", c);
     printf("%04d\n", d);
+    /* Output: 
+    0001
+    0012
+    0123
+    1234
+    */
 
     // Exercise 4: Print the values of a, b, c, and d using format specifiers with
     printf("\n%+d\n", a1);
     printf("%+d\n", b);
     printf("%+d\n", c);
     printf("%+d\n", d);
-
+    /* Output:
+    -1
+    +12
+    +123
+    +1234
+    */
+   
     return 0;
 }
